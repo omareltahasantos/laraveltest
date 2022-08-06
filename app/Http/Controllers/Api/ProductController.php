@@ -24,6 +24,8 @@ class ProductController extends Controller
         $product->stock = $request->stock;
 
         $product->save(); //Crear registro
+
+        return $product;
     }
 
    
